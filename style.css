@@ -37,7 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .card img {
@@ -62,3 +62,18 @@ body {
 }
 
 /* ESTILIZANDO OS LINKS */
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-style: none;
+    width: 350px;
+    padding: 1rem 0;
+    border-radius: 15px;
+}
