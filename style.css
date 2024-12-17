@@ -4,4 +4,25 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", serif;
+    list-style: none;
+    font-style: none;
 }
+
+/* ESTILIZANDO O BODY */
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+}
+
+/* ESTILIZANDO O CONTAINER */
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    margin: 0 auto;
+    width: 450px;
+}
+
+/* ESTILIZANDO O CARD */
+
+
