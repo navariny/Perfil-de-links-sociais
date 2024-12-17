@@ -5,7 +5,12 @@
     padding: 0;
     font-family: "Inter", serif;
     list-style: none;
-    font-style: none;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /* ESTILIZANDO O BODY */
@@ -13,6 +18,8 @@
 body {
     background-color: hsl(0, 0%, 8%);
     min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 /* ESTILIZANDO O CONTAINER */
@@ -21,8 +28,37 @@ body {
     background-color: hsl(0, 0%, 12%);
     margin: 0 auto;
     width: 450px;
+    border-radius: 15px;
 }
 
 /* ESTILIZANDO O CARD */
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
 
+.card img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.text {
+    padding: 1.5rem 0;
+}
+
+.text h1,
+.text p {
+    color: hsl(0, 0%, 100%);
+}
+
+.text h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 700;
+    padding: .5rem 0 1.5rem 0;
+}
+
+/* ESTILIZANDO OS LINKS */
